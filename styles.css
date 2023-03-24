@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #eee;
     font-family: roboto, helvetica, sans-serif;
     font-size: 1em;
     display: flex;
@@ -19,7 +20,6 @@ body {
 
 .header {
     width: 1200px;
-    color: #eee;
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -38,7 +38,6 @@ a {
 
 
 .intro-container {
-    color: #eee;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -49,6 +48,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    
 }
 
 .intro-content {
@@ -78,4 +78,11 @@ button {
     text-align: center;
     border-radius: 10px;
     max-width: 180px;
+    transition: background-color 0.1s ease-in-out; /* This make button looks more clickable */
 }
+
+button:hover { /* This make button looks more clickable */
+    background-color: #3E4F6B;
+    cursor: pointer;
+}
+
