@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -7,19 +6,21 @@ body {
   color: #eee;
   font-family: "Roboto", helvetica, sans-serif;
   font-size: 1em;
+  margin: 0 auto;
 }
 
 .header-container {
   display: flex;
   background-color: #1f2937;
   justify-content: center;
-  padding: 2em;
+  padding: 0 16em;
 }
 
 .header {
-  width: 90%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  flex-grow: 1;
   padding: 1em;
 }
 
@@ -29,6 +30,8 @@ body {
   gap: 1em;
 }
 
+
+
 a {
   color: #eee;
   text-decoration: none;
@@ -36,21 +39,20 @@ a {
 
 .intro-container {
   background-color: #1f2937;
-  display: flex;
-  justify-content: center;
-  padding: 2em;
+  padding: 0 16em;
 }
 
 .intro {
-  width: 90%;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .picture {
-    height: auto;
-    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
 }
 
 .intro-content {
@@ -62,7 +64,7 @@ a {
 .intro-heroMain {
   color: #f9faf8;
   font-size: 3em;
-  font-weight: 1600;
+  font-weight: 800;
 }
 
 .intro-heroSecond {
