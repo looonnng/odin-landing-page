@@ -53,8 +53,6 @@ a {
   margin-left: auto;
 }
 
-
-
 .intro-content {
   max-width: 50%;
   display: flex;
@@ -93,8 +91,8 @@ button:hover {
 }
 
 img {
-    height: auto;
-    width: 140px;
+  height: auto;
+  width: 140px;
 }
 
 .info-container {
@@ -112,7 +110,7 @@ img {
 }
 
 .cards-container {
-    display: flex;
+  display: flex;
 }
 
 .cards {
@@ -124,15 +122,14 @@ img {
 }
 
 figcaption {
-    font-size: 1em;
-    text-align: center;
+  font-size: 1em;
+  text-align: center;
 }
 
-
-.quote-section{
-  color: #1F2937;
-  background-color: #E5E7EB;
-  padding: 2em 13em;
+.quote-section {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 3em 13em;
 }
 
 .quote-container {
@@ -149,4 +146,39 @@ figcaption {
   font-size: 1.25em;
   font-weight: 800;
   text-align: end;
+}
+
+.signup-container {
+  padding: 3em 13em;
+}
+
+.signup {
+  background-color: #3882f6;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  border-radius: 0.5rem;
+}
+
+.signup-main {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: auto;
+}
+
+.signup-second {
+  margin-top: auto;
+  padding-right: 1em;
+}
+
+.signup-right {
+  align-self: center;
+}
+
+.signup-button {
+  font-size: 1em;
+  font-weight: 500;
+  border: 0.1em solid #eee;
+  min-width: 180px;
 }
