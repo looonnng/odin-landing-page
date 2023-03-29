@@ -13,7 +13,7 @@ body {
   display: flex;
   background-color: #1f2937;
   justify-content: center;
-  padding: 0 16em;
+  padding: 0 13em;
 }
 
 .header {
@@ -30,8 +30,6 @@ body {
   gap: 1em;
 }
 
-
-
 a {
   color: #eee;
   text-decoration: none;
@@ -39,7 +37,7 @@ a {
 
 .intro-container {
   background-color: #1f2937;
-  padding: 0 16em;
+  padding: 3em 13em;
 }
 
 .intro {
@@ -49,16 +47,19 @@ a {
 }
 
 .picture {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
 }
+
+
 
 .intro-content {
   max-width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 0.5em;
 }
 
 .intro-heroMain {
@@ -92,35 +93,60 @@ button:hover {
 }
 
 img {
-  width: 80%;
-  height: auto;
+    height: auto;
+    width: 140px;
 }
 
 .info-container {
   color: black;
   display: flex;
   flex-direction: column;
+  padding: 3em 13em;
 }
 
 .info-header {
   text-align: center;
-  font: 36px "extra-bold";
-  padding: 48px;
+  font-size: 2em;
+  font-weight: 800;
+  padding-bottom: 2em;
 }
 
 .cards-container {
-  display: flex;
-  padding: 2em;
+    display: flex;
 }
 
 .cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  margin: 0 10px;
+  gap: 1em;
 }
 
 figcaption {
-  text-align: center;
-  max-width: 80%;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.quote-section{
+  color: #1F2937;
+  background-color: #E5E7EB;
+  padding: 2em 13em;
+}
+
+.quote-container {
+  padding: 1em;
+}
+
+.quote {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: light;
+}
+
+.quotee {
+  font-size: 1.25em;
+  font-weight: 800;
+  text-align: end;
 }
